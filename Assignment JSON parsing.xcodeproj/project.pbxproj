@@ -14,6 +14,13 @@
 		6130A0E01ACA6D4000E393B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6130A0DF1ACA6D4000E393B2 /* Images.xcassets */; };
 		6130A0E31ACA6D4000E393B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6130A0E11ACA6D4000E393B2 /* LaunchScreen.xib */; };
 		6130A0EF1ACA6D4000E393B2 /* Assignment_JSON_parsingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6130A0EE1ACA6D4000E393B2 /* Assignment_JSON_parsingTests.m */; };
+		6130A0FA1ACA709600E393B2 /* Jsonparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6130A0F91ACA709600E393B2 /* Jsonparser.m */; };
+		61ADCF2E1ACAACDE00A4F135 /* JSONParserMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ADCF2D1ACAACDE00A4F135 /* JSONParserMain.m */; };
+		61ADCF311ACAAE6700A4F135 /* JSONParserForLabsAndImagining.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ADCF301ACAAE6700A4F135 /* JSONParserForLabsAndImagining.m */; };
+		61ADCF341ACAB1E600A4F135 /* JSONParserForMedication.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ADCF331ACAB1E600A4F135 /* JSONParserForMedication.m */; };
+		61ADCF371ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ADCF361ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.m */; };
+		61ADCF391ACAC14E00A4F135 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 61ADCF381ACAC14E00A4F135 /* File.rtf */; };
+		61D8DEC81ACAE32B003B57C1 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61D8DEC71ACAE32B003B57C1 /* File.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,18 @@
 		6130A0E81ACA6D4000E393B2 /* Assignment JSON parsingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment JSON parsingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6130A0ED1ACA6D4000E393B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6130A0EE1ACA6D4000E393B2 /* Assignment_JSON_parsingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_JSON_parsingTests.m; sourceTree = "<group>"; };
+		6130A0F81ACA709600E393B2 /* Jsonparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jsonparser.h; sourceTree = "<group>"; };
+		6130A0F91ACA709600E393B2 /* Jsonparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jsonparser.m; sourceTree = "<group>"; };
+		61ADCF2C1ACAACDE00A4F135 /* JSONParserMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParserMain.h; sourceTree = "<group>"; };
+		61ADCF2D1ACAACDE00A4F135 /* JSONParserMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParserMain.m; sourceTree = "<group>"; };
+		61ADCF2F1ACAAE6700A4F135 /* JSONParserForLabsAndImagining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParserForLabsAndImagining.h; sourceTree = "<group>"; };
+		61ADCF301ACAAE6700A4F135 /* JSONParserForLabsAndImagining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParserForLabsAndImagining.m; sourceTree = "<group>"; };
+		61ADCF321ACAB1E600A4F135 /* JSONParserForMedication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParserForMedication.h; sourceTree = "<group>"; };
+		61ADCF331ACAB1E600A4F135 /* JSONParserForMedication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParserForMedication.m; sourceTree = "<group>"; };
+		61ADCF351ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jSONParserForArrayInsideDictionary.h; sourceTree = "<group>"; };
+		61ADCF361ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jSONParserForArrayInsideDictionary.m; sourceTree = "<group>"; };
+		61ADCF381ACAC14E00A4F135 /* File.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		61D8DEC71ACAE32B003B57C1 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +104,21 @@
 				6130A0D71ACA6D4000E393B2 /* AppDelegate.m */,
 				6130A0D91ACA6D4000E393B2 /* ViewController.h */,
 				6130A0DA1ACA6D4000E393B2 /* ViewController.m */,
+				6130A0F81ACA709600E393B2 /* Jsonparser.h */,
+				6130A0F91ACA709600E393B2 /* Jsonparser.m */,
+				61ADCF2C1ACAACDE00A4F135 /* JSONParserMain.h */,
+				61ADCF2D1ACAACDE00A4F135 /* JSONParserMain.m */,
+				61ADCF2F1ACAAE6700A4F135 /* JSONParserForLabsAndImagining.h */,
+				61ADCF301ACAAE6700A4F135 /* JSONParserForLabsAndImagining.m */,
+				61ADCF321ACAB1E600A4F135 /* JSONParserForMedication.h */,
+				61ADCF331ACAB1E600A4F135 /* JSONParserForMedication.m */,
+				61ADCF351ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.h */,
+				61ADCF361ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.m */,
 				6130A0DC1ACA6D4000E393B2 /* Main.storyboard */,
 				6130A0DF1ACA6D4000E393B2 /* Images.xcassets */,
 				6130A0E11ACA6D4000E393B2 /* LaunchScreen.xib */,
 				6130A0D21ACA6D4000E393B2 /* Supporting Files */,
+				61ADCF381ACAC14E00A4F135 /* File.rtf */,
 			);
 			path = "Assignment JSON parsing";
 			sourceTree = "<group>";
@@ -97,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				6130A0D31ACA6D4000E393B2 /* Info.plist */,
+				61D8DEC71ACAE32B003B57C1 /* File.txt */,
 				6130A0D41ACA6D4000E393B2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -199,8 +230,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D8DEC81ACAE32B003B57C1 /* File.txt in Resources */,
 				6130A0DE1ACA6D4000E393B2 /* Main.storyboard in Resources */,
 				6130A0E31ACA6D4000E393B2 /* LaunchScreen.xib in Resources */,
+				61ADCF391ACAC14E00A4F135 /* File.rtf in Resources */,
 				6130A0E01ACA6D4000E393B2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61ADCF341ACAB1E600A4F135 /* JSONParserForMedication.m in Sources */,
+				61ADCF311ACAAE6700A4F135 /* JSONParserForLabsAndImagining.m in Sources */,
 				6130A0DB1ACA6D4000E393B2 /* ViewController.m in Sources */,
 				6130A0D81ACA6D4000E393B2 /* AppDelegate.m in Sources */,
+				6130A0FA1ACA709600E393B2 /* Jsonparser.m in Sources */,
 				6130A0D51ACA6D4000E393B2 /* main.m in Sources */,
+				61ADCF371ACABA3900A4F135 /* jSONParserForArrayInsideDictionary.m in Sources */,
+				61ADCF2E1ACAACDE00A4F135 /* JSONParserMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Assignment JSON parsing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Assignment JSON parsing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +452,7 @@
 				6130A0F41ACA6D4000E393B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6130A0F51ACA6D4000E393B2 /* Build configuration list for PBXNativeTarget "Assignment JSON parsingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +461,7 @@
 				6130A0F71ACA6D4000E393B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
